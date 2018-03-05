@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 
 import List from '../../components/list/list';
 import InputCard from '../../components/inputCard/inputCard';
-import Popup from '../edit/edit';
+import Popup from '../details/details';
 import { addCard, deleteCard, editCard } from '../../store/actions';
 
 class Main extends React.Component {
